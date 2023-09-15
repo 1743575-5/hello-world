@@ -1,0 +1,11 @@
+plug-ins {
+  id "org.sonarqube" versão "4.3.1.3277"
+}
+
+sonar {
+  propriedades {
+    propriedade "sonar.projectKey" , "1743575-5_hello-world" 
+    propriedade "sonar.organization" , "1743575-5" 
+    propriedade "sonar.host.url" , "https://sonarcloud.io"
+  }
+}
